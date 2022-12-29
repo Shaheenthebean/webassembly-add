@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shaheen/Desktop/wabt/include/wabt/opcode-code-table.h
+stdint.h
+-
+stdlib.h
+-
+
+/Users/shaheen/Desktop/wabt/include/wabt/opcode.def
+
+/Users/shaheen/Desktop/wabt/src/opcode-code-table.c
+wabt/opcode-code-table.h
+/Users/shaheen/Desktop/wabt/src/wabt/opcode-code-table.h
+wabt/config.h
+/Users/shaheen/Desktop/wabt/src/wabt/config.h
+stdint.h
+-
+wabt/opcode.def
+/Users/shaheen/Desktop/wabt/src/wabt/opcode.def
+wabt/opcode.def
+/Users/shaheen/Desktop/wabt/src/wabt/opcode.def
+
+include/wabt/config.h
+stdint.h
+-
+stdlib.h
+-
+alloca.h
+-
+malloc.h
+-
+malloc.h
+-
+intrin.h
+-
+string.h
+-
+cstdarg
+-
+

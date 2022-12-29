@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shaheen/Desktop/wabt/third_party/wasm-c-api/example/multi.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+inttypes.h
+-
+wasm.h
+/Users/shaheen/Desktop/wabt/third_party/wasm-c-api/example/wasm.h
+
+/Users/shaheen/Desktop/wabt/third_party/wasm-c-api/include/wasm.h
+stddef.h
+-
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+assert.h
+-
+
